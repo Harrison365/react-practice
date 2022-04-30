@@ -1,8 +1,11 @@
 import logo from "./logo.svg";
+
 import "./App.css";
+import AddToObjArray from "./AddToObjArray";
 
 function App() {
-  const array = ["a", "b", "c", "d", "e", "f", "g"];
+  // const array = ["a", "b", "c", "d", "e", "f", "g"];
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,9 +21,11 @@ function App() {
         >
           Learn React
         </a>
-        {/* {array.map((letter) => {
+        {array.map((letter) => {
           return <h1>{letter}</h1>;
-        })} */}
+        })}
+        <h1>Hello</h1>
+        <AddToObjArray />
       </header>
     </div>
   );
